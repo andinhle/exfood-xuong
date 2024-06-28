@@ -1,0 +1,86 @@
+{
+  "categorys": [
+    {
+      "name": "Coffee",
+      "image": "https://i.ibb.co/jJNgTsK/cup-ew-WWMIpt.png",
+      "id": 10
+    },
+    {
+      "name": "Burger",
+      "image": "https://i.ibb.co/wwSxhDt/burger-1-e-M0x-P7u-X.png",
+      "id": 11
+    },
+    {
+      "name": "Noodles",
+      "image": "https://i.ibb.co/zJsb0F8/noodles-txy-C1pya.png",
+      "id": 12
+    },
+    {
+      "name": "Pizza",
+      "image": "https://i.ibb.co/SKZGQFK/pizza-h-NVl-Z-YH.png",
+      "id": 13
+    },
+    {
+      "name": "Wrap",
+      "image": "https://i.ibb.co/yWyzv6w/taco-y4-T-lbo-F.png",
+      "id": 14
+    },
+    {
+      "name": "Appetizers",
+      "image": "https://i.ibb.co/9czdByV/skewer-2dg8i-S5j.png",
+      "id": 15
+    },
+    {
+      "name": "Dessert",
+      "image": "https://i.ibb.co/7W3yf45/dessert-Sl-VVk-5x.png",
+      "id": 16
+    }
+  ],
+  "foods": [
+    {
+      "name": "Cafe không đường",
+      "price": "200",
+      "quality": "100",
+      "category": "Burger",
+      "image": "https://i.ibb.co/q7R6sDt/444502407-828916209228062-7767564976127412875-n.jpg",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "andinhle163@gmail.com",
+      "password": "$2a$10$fkQbWE7oVz5Yk.wjuRaN.eyuC0tYt7hiNqwTlsV8Pmz8scrW8wEDK",
+      "firstName": "ann",
+      "lastName": "dinhan",
+      "id": 1
+    },
+    {
+      "email": "andinhle113@gmail.com",
+      "password": "$2a$10$.irCWoMYWW.W63vlLv0FHe5WyE0ZslZTQARdblPZ3f7TKQp1IYhrO",
+      "firstName": "ann",
+      "lastName": "dinhan",
+      "id": 2
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$09BhODhzZQo6SD4X/yEoru2Sn9nGFfdgvMYZsfVzc2TKnek.o1dQK",
+      "firstName": "adm",
+      "lastName": "min",
+      "id": 3
+    },
+    {
+      "email": "andinhle141@gmail.com",
+      "password": "$2a$10$Z0WmiDMa5Mc9moT19O9SF.VCWkDUwZek1im8b8gJJvoC3sxgVVIoa",
+      "firstName": "tai",
+      "lastName": "tutai",
+      "id": 4
+    },
+    {
+      "email": "andinhle1333@gmail.com",
+      "password": "$2a$10$uFLgq5INFeAmg3HIHBvBuOwdjO5ei6S11k6TghdAY1XkW5PdzHf2q",
+      "firstName": "tai",
+      "lastName": "dinhle",
+      "id": 5
+    }
+  ]
+}

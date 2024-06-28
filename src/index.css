@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Poppins", sans-serif;
+    color: hsl(215.29999999999995 25% 26.7% / 1);
+  }
+}
+@layer utilities {
+  ::selection {
+    background-color: #f58220;
+    color: white;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #f58220;
+    border-radius: 50px;
+  }
+  .nav-left-control::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  .before::before,
+  .list-category::before {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background-color: #f58220;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 8px;
+  }
+  .bg-wel {
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(
+      360deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(16, 82%, 94%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      360deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(16, 82%, 94%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      360deg,
+      hsla(0, 0%, 100%, 1) 0%,
+      hsla(16, 82%, 94%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FCE8E1", GradientType=1 );
+  }
+}
+.active {
+  background-color: #ffece0;
+  color: #f58220;
+}
+
+.active:hover {
+  background-color: #ffece0 !important;
+}
+
+.active svg {
+  stroke: #f58220;
+  fill: #ffece0;
+}
